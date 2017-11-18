@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
-* Студент: [Ольга Артемова](https://up.htmlacademy.ru/htmlcss/19/user/35393).
-* Наставник: `Неизвестно`.
+* Студент: [Ольга Артемова](https://up.htmlacademy.ru/htmlcss/18/user/35393).
+* Наставник: [Никита Рогатнев](https://github.com/Rogatnev-Nikita).
 
 ---
 
