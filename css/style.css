@@ -890,7 +890,7 @@ input[type='radio'].visually-hidden {
 
     position: absolute;
     z-index: 20;
-    top: 327px;
+    bottom: 144px;
     right: 83px;
 
     margin: 0;
@@ -1599,6 +1599,7 @@ input[type='radio'].visually-hidden {
     display: inline-block;
 
     padding-top: 10px;
+    padding-bottom: 10px;
 
     vertical-align: top;
 }
@@ -2054,10 +2055,25 @@ input[type='radio'].visually-hidden {
 
 .sorting ul {
     margin: 0;
-    padding: 0;
     padding-top: 24px;
+    padding-bottom: 24px;
 
     list-style: none;
+}
+
+.sorting-type {
+  width: 283px;
+  padding: 0;
+}
+
+.sorting-order {
+  display: flex;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 45px;
+  padding: 0;
+  padding-left: 232px;
 }
 
 .sorting li {
@@ -2091,7 +2107,7 @@ input[type='radio'].visually-hidden {
 }
 
 .sorting-order li {
-    min-width: 15px;
+    min-width: 16px;
     margin: 0;
     margin-top: 4px;
 }
@@ -2099,9 +2115,7 @@ input[type='radio'].visually-hidden {
 .sorting-order-up {
     display: block;
 
-    width: 25px;
     height: 15px;
-    margin-left: 223px;
 
     background-color: transparent;
     background-image: url('../img/icon-up-dir.svg');
@@ -2112,7 +2126,6 @@ input[type='radio'].visually-hidden {
 .sorting-order-down {
     display: block;
 
-    width: 25px;
     height: 15px;
     margin-right: 0;
 
