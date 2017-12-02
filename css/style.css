@@ -1745,6 +1745,10 @@ input[type='radio'].visually-hidden {
     opacity: 1;
 }
 
+.modal-close:active {
+  opacity: 0.3;
+}
+
 .modal-write-us {
     display: none;
 }
@@ -2417,6 +2421,18 @@ input[type='checkbox']:focus ~ .filter-checkbox {
 
 input[type='radio']:focus ~ .filter-radio {
     opacity: 0.6;
+}
+
+input[type='checkbox']:disabled ~ .filter-checkbox::before,
+input[type='checkbox']:disabled ~ .filter-checkbox::after,
+input[type='checkbox']:disabled ~ .filter-checkbox {
+    opacity: 0.25;
+}
+
+input[type='radio']:disabled ~ .filter-radio::before,
+input[type='radio']:disabled ~ .filter-radio::after,
+input[type='radio']:disabled ~ .filter-radio {
+    opacity: 0.25;
 }
 
 
