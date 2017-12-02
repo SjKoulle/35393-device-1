@@ -966,39 +966,41 @@ input[type='radio'].visually-hidden {
     margin-right: 40px;
 }
 
-.popular-service-list li:last-of-type {
+.popular-service-list li:nth-of-type(6n) {
     margin-right: 0;
 }
 
-.popular-service-list a {
+.popular-service-item {
+    display: block;
     font-family: 'Gilroy', 'Arial', sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 22px;
+    padding-top: 34px;
+    margin-top: 160px;
 
     text-align: left;
 
     color: #000000;
 }
 
-.popular-service-item {
-    display: relative;
-}
-
 .popular-service-item:active {
     color: rgba(0, 0, 0, 0.3);
 }
 
-.popular-service-item:hover .service-img {
+.popular-service-item:hover::before {
     background-color: rgba(240, 197, 46, 1);
 }
 
-.service-img {
-    position: relative;
+.popular-service-item::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    cursor: pointer;
 
     width: 160px;
     height: 160px;
-    margin-bottom: 34px;
 
     vertical-align: center;
 
@@ -1007,49 +1009,51 @@ input[type='radio'].visually-hidden {
     background-position: center;
 }
 
-.service-img::after {
+.popular-service-item::after {
+    display: block;
+    content: '';
     position: absolute;
     top: 0;
+    cursor: pointer;
 
     width: 160px;
     height: 160px;
 
-    content: '';
+    vertical-align: center;
 
-    background-color: transparent;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.popular-service-item:active .service-img::after {
-    opacity: 0.3;
-}
-
-.virtual-reality .service-img::after {
+.virtual-reality::after {
     background-image: url(../img/popular-1.svg);
     background-position: left 31px bottom 53px;
 }
 
-.sellfy-stick .service-img::after {
+.sellfy-stick::after {
     background-image: url(../img/popular-2.svg);
     background-position: center bottom 2px;
 }
 
-.action-camera .service-img::after {
+.action-camera::after {
     background-image: url(../img/popular-3.svg);
     background-position: left 49px bottom 35px;
 }
 
-.fitness-bracelet .service-img::after {
+.fitness-bracelet::after {
     background-image: url(../img/popular-4.svg);
 }
 
-.clever-watch .service-img::after {
+.clever-watch::after {
     background-image: url(../img/popular-5.svg);
 }
 
-.quadrupter .service-img::after {
+.quadrupter::after {
     background-image: url(../img/popular-6.svg);
+}
+
+.popular-service-item:active::after {
+    opacity: 0.3;
 }
 
 .service-info-controls {
