@@ -569,7 +569,7 @@ input[type='radio'].visually-hidden {
     text-align: right;
 }
 
-.site-navigation > li:first-of-type > a::after {
+.openable-menu > a::after {
     position: absolute;
     top: 2px;
     left: 231px;
@@ -655,8 +655,8 @@ input[type='radio'].visually-hidden {
     opacity: 0.3;
 }
 
-.site-navigation > li:hover .sub-menu-container,
-.site-navigation > li:focus .sub-menu-container {
+.openable-menu:hover .sub-menu-container,
+.openable-menu:focus .sub-menu-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -666,7 +666,7 @@ input[type='radio'].visually-hidden {
 }
 
 .sub-menu-container:hover,
-.site-navigation > li:hover + .sub-menu-container {
+.openable-menu:hover + .sub-menu-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
