@@ -98,14 +98,13 @@
 }
 
 body {
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: 'Open Sans', 'Arial', sans-serif;
     font-size: 15px;
     font-weight: 300;
     line-height: 18px;
 
     min-width: 1160px;
 
-    color: #000000;
     color: rgb(70, 70, 70);
     background-color: #ffffff;
 }
@@ -155,7 +154,7 @@ input[type='radio'].visually-hidden {
 }
 
 .btn {
-    font-family: 'Gilroy', Arial, sans-serif;
+    font-family: 'Gilroy', 'Arial', sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 22px;
@@ -209,7 +208,7 @@ input[type='radio'].visually-hidden {
 }
 
 .custom-list {
-    font-family: 'Gilroy', Arial, sans-serif;
+    font-family: 'Gilroy', 'Arial', sans-serif;
     font-size: 16px;
     font-weight: 800;
     line-height: 40px;
@@ -586,7 +585,7 @@ input[type='radio'].visually-hidden {
 }
 
 .site-navigation a {
-    font-family: 'Gilroy', Arial, sans-serif;
+    font-family: 'Gilroy', 'Arial', sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 22px;
@@ -638,7 +637,7 @@ input[type='radio'].visually-hidden {
 }
 
 .sub-menu a {
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: 'Open Sans', 'Arial', sans-serif;
     font-size: 15px;
     font-weight: 300;
     line-height: 36px;
@@ -747,7 +746,7 @@ input[type='radio'].visually-hidden {
 }
 
 .main-first-slide::before {
-    font-family: 'Gilroy', Arial, sans-serif;
+    font-family: 'Gilroy', 'Arial', sans-serif;
     font-size: 179.2px;
     font-weight: 800;
     line-height: 179.2px;
@@ -768,7 +767,7 @@ input[type='radio'].visually-hidden {
 }
 
 .main-second-slide::before {
-    font-family: 'Gilroy', Arial, sans-serif;
+    font-family: 'Gilroy', 'Arial', sans-serif;
     font-size: 179.2px;
     font-weight: 800;
     line-height: 179.2px;
@@ -789,7 +788,7 @@ input[type='radio'].visually-hidden {
 }
 
 .main-third-slide::before {
-    font-family: 'Gilroy', Arial, sans-serif;
+    font-family: 'Gilroy', 'Arial', sans-serif;
     font-size: 179.2px;
     font-weight: 800;
     line-height: 179.2px;
@@ -816,7 +815,7 @@ input[type='radio'].visually-hidden {
 }
 
 .main-slide b {
-    font-family: 'Gilroy', Arial, sans-serif;
+    font-family: 'Gilroy', 'Arial', sans-serif;
     font-size: 47px;
     font-weight: 800;
     line-height: 56px;
@@ -854,7 +853,7 @@ input[type='radio'].visually-hidden {
 }
 
 .main-slider-info-data td {
-    font-family: 'Gilroy', Arial, sans-serif;
+    font-family: 'Gilroy', 'Arial', sans-serif;
     font-size: 36px;
     font-weight: 300;
     line-height: 43px;
@@ -972,7 +971,7 @@ input[type='radio'].visually-hidden {
 }
 
 .popular-service-list a {
-    font-family: 'Gilroy', Arial, sans-serif;
+    font-family: 'Gilroy', 'Arial', sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 22px;
@@ -1170,7 +1169,7 @@ input[type='radio'].visually-hidden {
 }
 
 .service-info h2 {
-    font-family: 'Gilroy', Arial, sans-serif;
+    font-family: 'Gilroy', 'Arial', sans-serif;
     font-size: 47px;
     font-weight: 800;
     line-height: 56px;
@@ -1357,7 +1356,7 @@ input[type='radio'].visually-hidden {
 
 .about h2,
 .contacts h2 {
-    font-family: 'Gilroy', Arial, sans-serif;
+    font-family: 'Gilroy', 'Arial', sans-serif;
     font-size: 47px;
     font-weight: 800;
     line-height: 56px;
@@ -1535,7 +1534,7 @@ input[type='radio'].visually-hidden {
 }
 
 .footer-navigation a {
-    font-family: 'Gilroy', Arial, sans-serif;
+    font-family: 'Gilroy', 'Arial', sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 22px;
@@ -1691,7 +1690,7 @@ input[type='radio'].visually-hidden {
 
 .filters-heading,
 .sorting-heading {
-    font-family: 'Gilroy', Arial, sans-serif;
+    font-family: 'Gilroy', 'Arial', sans-serif;
     font-size: 16px;
     font-weight: 800;
     line-height: 19px;
@@ -1775,7 +1774,7 @@ input[type='radio'].visually-hidden {
 }
 
 .write-us-form label {
-    font-family: 'Gilroy', Arial, sans-serif;
+    font-family: 'Gilroy', 'Arial', sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 18px;
@@ -1893,7 +1892,7 @@ input[type='radio'].visually-hidden {
 }
 
 .main-heading {
-    font-family: 'Gilroy', Arial, sans-serif;
+    font-family: 'Gilroy', 'Arial', sans-serif;
     font-size: 47px;
     font-weight: 800;
     line-height: 56px;
@@ -1956,7 +1955,7 @@ input[type='radio'].visually-hidden {
 }
 
 .breadcrumbs a {
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: 'Open Sans', 'Arial', sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 36px;
@@ -2006,7 +2005,7 @@ input[type='radio'].visually-hidden {
 }
 
 .first-catalog-line h2 {
-    font-family: 'Gilroy', Arial, sans-serif;
+    font-family: 'Gilroy', 'Arial', sans-serif;
     font-size: 16px;
     font-weight: 800;
     line-height: 19px;
@@ -2154,7 +2153,7 @@ input[type='radio'].visually-hidden {
 }
 
 .catalog-filters legend {
-    font-family: 'Gilroy', Arial, sans-serif;
+    font-family: 'Gilroy', 'Arial', sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 22px;
@@ -2492,7 +2491,7 @@ input[type='radio']:focus ~ .filter-radio {
 }
 
 .catalog-item h1 {
-    font-family: 'Gilroy', Arial, sans-serif;
+    font-family: 'Gilroy', 'Arial', sans-serif;
     font-size: 18px;
     font-weight: 800;
     line-height: 22px;
@@ -2532,7 +2531,7 @@ input[type='radio']:focus ~ .filter-radio {
 }
 
 .catalog-item .catalog-item-price {
-    font-family: 'Gilroy', Arial, sans-serif;
+    font-family: 'Gilroy', 'Arial', sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 19px;
@@ -2609,7 +2608,7 @@ input[type='radio']:focus ~ .filter-radio {
 }
 
 .pagination-list a {
-    font-family: 'Gilroy', Arial, sans-serif;
+    font-family: 'Gilroy', 'Arial', sans-serif;
     font-size: 16px;
     font-weight: 800;
     line-height: 19px;
@@ -2633,7 +2632,7 @@ input[type='radio']:focus ~ .filter-radio {
 }
 
 .pagination-list button {
-    font-family: 'Gilroy', Arial, sans-serif;
+    font-family: 'Gilroy', 'Arial', sans-serif;
     font-size: 16px;
     font-weight: 800;
     line-height: 19px;
