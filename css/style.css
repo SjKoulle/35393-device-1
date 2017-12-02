@@ -546,6 +546,7 @@ input[type='radio'].visually-hidden {
     font-size: 0;
 
     display: inline-block;
+    vertical-align: baseline;
 
     width: 157px;
     margin: 0;
@@ -821,6 +822,7 @@ input[type='radio'].visually-hidden {
     line-height: 56px;
 
     display: inline-block;
+    vertical-align: baseline;
 
     margin-top: 80px;
     margin-bottom: 3px;
@@ -874,6 +876,7 @@ input[type='radio'].visually-hidden {
 
 .main-slider-btn {
     display: inline-block;
+    vertical-align: baseline;
 
     margin-bottom: 48px;
     padding-top: 10px;
