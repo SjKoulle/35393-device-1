@@ -1844,8 +1844,6 @@ input[type='radio'].visually-hidden {
 .write-us-form textarea:invalid {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    width: 358px;
-    height: 51px;
     margin-top: 15px;
     padding-left: 10px;
 
@@ -1859,6 +1857,12 @@ input[type='radio'].visually-hidden {
     outline: none;
     background-color: rgba(237, 181, 181, 0.5);
 }
+
+.write-us-form input:invalid {
+    width: 358px;
+    height: 51px;
+}
+
 .btn-send {
     width: 200px;
 }
